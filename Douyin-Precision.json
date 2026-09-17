@@ -1,0 +1,32 @@
+{
+  "name": "Douyin-Precision",
+  "description": "抖音精准分流规则集；核心域名优先，尽量避免宽泛的字节系共享域名误匹配。",
+  "behavior": "classical",
+  "rules": [
+    "DOMAIN-SUFFIX,douyin.com",
+    "DOMAIN-SUFFIX,iesdouyin.com",
+    "DOMAIN-SUFFIX,douyincdn.com",
+    "DOMAIN-SUFFIX,douyinpic.com",
+    "DOMAIN-SUFFIX,douyinstatic.com",
+    "DOMAIN-SUFFIX,douyinvod.com",
+    "DOMAIN-SUFFIX,idouyinvod.com",
+    "DOMAIN-SUFFIX,awemeughun.com",
+    "DOMAIN-SUFFIX,amemv.com",
+    "DOMAIN-SUFFIX,zijieapi.com",
+    "DOMAIN-SUFFIX,ecombdapi.com",
+    "DOMAIN-SUFFIX,ecombdimg.com",
+    "DOMAIN-SUFFIX,ecombdstatic.com",
+    "DOMAIN-SUFFIX,zjcdn.com",
+    "DOMAIN-SUFFIX,zjurl.cn",
+    "DOMAIN-SUFFIX,byteimg.com",
+    "DOMAIN-SUFFIX,bytednsdoc.com",
+    "DOMAIN-SUFFIX,bytecdn.cn",
+    "DOMAIN-SUFFIX,bytecdn.com",
+    "DOMAIN-SUFFIX,bytetos.com",
+    "DOMAIN-SUFFIX,bytescm.com",
+    "DOMAIN-SUFFIX,bytegecko.com",
+    "DOMAIN-SUFFIX,ibytedapm.com",
+    "DOMAIN,lf3-static.bytednsdoc.com",
+    "DOMAIN,v5-dy-o-abtest.zjcdn.com"
+  ]
+}
