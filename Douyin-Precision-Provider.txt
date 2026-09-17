@@ -1,0 +1,13 @@
+# Mihomo/OpenClash rule-provider
+rule-providers:
+  Douyin:
+    type: http
+    behavior: classical
+    format: yaml
+    interval: 86400
+    path: ./ruleset/Douyin-Precision.yaml
+    url: "https://你的规则文件地址/Douyin-Precision.yaml"
+
+rules:
+  # 把抖音规则放在 CN / GEOIP / MATCH 等更宽泛规则之前
+  - RULE-SET,Douyin,DIRECT
