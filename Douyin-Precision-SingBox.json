@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain_suffix": [
+        "douyin.com",
+        "iesdouyin.com",
+        "douyincdn.com",
+        "douyinpic.com",
+        "douyinstatic.com",
+        "douyinvod.com",
+        "idouyinvod.com",
+        "awemeughun.com",
+        "amemv.com",
+        "zijieapi.com",
+        "ecombdapi.com",
+        "ecombdimg.com",
+        "ecombdstatic.com",
+        "zjcdn.com",
+        "zjurl.cn",
+        "byteimg.com",
+        "bytednsdoc.com",
+        "bytecdn.cn",
+        "bytecdn.com",
+        "bytetos.com",
+        "bytescm.com",
+        "bytegecko.com",
+        "ibytedapm.com"
+      ]
+    },
+    {
+      "domain": [
+        "lf3-static.bytednsdoc.com",
+        "v5-dy-o-abtest.zjcdn.com"
+      ]
+    }
+  ]
+}
